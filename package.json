@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/conradodiegom/clio-rpgs#readme",
   "dependencies": {
+    "@materializecss/materialize": "^2.2.2",
     "jquery": "^3.7.1"
   },
   "devDependencies": {
