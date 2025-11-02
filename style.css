@@ -1,0 +1,231 @@
+/* Estilos Gerais */
+body {
+    background-color: #1d1325;
+    color: #f5f5f5;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Navbar */
+nav {
+    background-color: #200035;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav .brand-logo img {
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav-wrapper a {
+    color: #e0e0e0;
+}
+
+.nav-wrapper .btn {
+    background-color: #742eb6; /* Roxo */
+}
+.nav-wrapper .btn:hover {
+    background-color: #6130b6;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/images/Fundo.png") no-repeat center center;
+
+    background-size: cover; /* Garante que a imagem cubra toda a área */
+    padding: 120px 0; /* Aumentei um pouco o padding para dar mais espaço */
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn-large {
+    background-color: #7e57c2;
+}
+
+.hero .btn-large:hover {
+    background-color: #673ab7;
+}
+
+
+/* Seções de Cards */
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.card {
+    background-color: #2f2238;
+    border-radius: 8px;
+}
+
+.card .card-image img {
+    border-radius: 8px 8px 0 0;
+}
+
+.card .card-title {
+    color: #f5f5f5;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 16px;
+}
+
+
+/* Página de Sistema */
+.system-header img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.system-header .btn {
+    margin-right: 10px;
+    background-color: #230c4b;
+}
+.system-header .btn.secondary {
+    background-color: #23003f;
+}
+
+
+/* Abas (Tabs) */
+.tabs {
+    background-color: transparent;
+}
+.tabs .tab a {
+    color: #e0e0e0;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #7e57c2;
+}
+.tabs .indicator {
+    background-color: #7e57c2;
+}
+
+
+/* Página de Comunidade */
+.collection {
+    border-color: #5a536e;
+}
+.collection .collection-item {
+    background-color: #4a455a;
+    border-bottom: 1px solid #5a536e;
+    color: #f5f5f5;
+}
+.collection .collection-item .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.collection .collection-item p {
+    color: #bdbdbd;
+}
+
+/* Formulários de Login/Cadastro */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 64px); /* Subtrai a altura do navbar */
+}
+.form-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: #4a455a;
+    border-radius: 10px;
+}
+
+.form-card h4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-field label {
+    color: #e0e0e0;
+}
+
+.input-field input {
+    border-bottom: 1px solid #e0e0e0;
+    color: #f5f5f5;
+}
+
+.input-field input:focus + label {
+  color: #7e57c2 !important;
+}
+.input-field input:focus {
+  border-bottom: 1px solid #7e57c2 !important;
+  box-shadow: 0 1px 0 0 #7e57c2 !important;
+}
+
+.form-card .btn {
+    width: 100%;
+    background-color: #7e57c2;
+}
+.form-card .form-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-card .form-link a {
+    color: #ce93d8;
+}
+/* Footer */
+footer.page-footer {
+    background-color: #2b2835;
+    padding-top: 20px;
+    margin-top: 50px; /* Adiciona espaço acima do footer */
+}
+
+footer.page-footer .footer-copyright {
+    background-color: #2b2835;
+}
+
+footer.page-footer a {
+    color: #e0e0e0;
+}
+
+footer.page-footer a:hover {
+    color: #250a53;
+}
+
+/* Ícones sociais no footer */
+.footer-social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+nav .brand-logo img {
+    height: 45px; /* Aumentado de 35px para 45px */
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 5px; /* Ajuste vertical para alinhar melhor */
+}
+
+.card.reveal .card-title {
+    color: #f5f5f5; 
+}
+.card.reveal .card-reveal span.card-title {
+    color: #f5f5f5; 
+}
+.card.reveal .card-reveal p {
+    color: #bdbdbd; 
+}
+.card .card-reveal {
+  background-color: #3c384a; 
+}

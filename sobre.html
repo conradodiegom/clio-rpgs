@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - Clio RPGs</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+    <header>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                <img src="Clio Rpg’s.png" alt="Clio RPGs Logo"> Clio RPGs
+            </a>
+            
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explorar.html">Explore</a></li>
+                <li><a href="sobre.html">About</a></li>
+                <li><a href="signup.html" class="btn">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<ul id="slide-out" class="sidenav" style="background-color: #383444;">
+    <li><a class="waves-effect white-text" href="index.html"><i class="material-icons white-text">home</i>Home</a></li>
+    <li><a class="waves-effect white-text" href="explorar.html"><i class="material-icons white-text">explore</i>Explore</a></li>
+    <li><a class="waves-effect white-text" href="sobre.html"><i class="material-icons white-text">info</i>About</a></li>
+    <li><div class="divider" style="background-color: #5a536e;"></div></li>
+    <li><a class="waves-effect white-text" href="login.html">Log In</a></li>
+    <li><a class="waves-effect btn" style="background-color: #7e57c2; margin: 0 32px;" href="signup.html">Sign Up</a></li>
+</ul>
+
+    <main>
+        <div class="container">
+            <div class="row" style="margin-top: 40px;">
+                <div class="col s12 m6">
+                    <h3>About Clio RPGs</h3>
+                    <p class="flow-text">
+                        Clio RPGs was born from a passion for storytelling and collaborative creation. We believe that everyone has a story to tell, and role-playing games are one of the most powerful mediums to bring those stories to life.
+                    </p>
+                    <p>
+                        Our mission is to provide a central hub for players and creators to discover new worlds, share their own systems, and connect with a vibrant community of fellow adventurers. Whether you are a seasoned game master or a brand new player, you'll find a home here.
+                    </p>
+                </div>
+                <div class="col s12 m6">
+                    <img src="https://via.placeholder.com/500x350.png?text=Our+Community" alt="Community" class="responsive-img" style="border-radius: 8px; margin-top: 20px;">
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col s12">
+                    <h4>Our Values</h4>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel" style="background-color: #4a455a;">
+                        <i class="material-icons large center-align" style="display: block;">public</i>
+                        <h5 class="center-align">Creativity</h5>
+                        <p>We champion imagination and provide the tools for creators to build and share their unique visions.</p>
+                    </div>
+                </div>
+                 <div class="col s12 m4">
+                    <div class="card-panel" style="background-color: #4a455a;">
+                        <i class="material-icons large center-align" style="display: block;">group</i>
+                        <h5 class="center-align">Community</h5>
+                        <p>We foster a welcoming and inclusive environment where players can connect and collaborate.</p>
+                    </div>
+                </div>
+                 <div class="col s12 m4">
+                    <div class="card-panel" style="background-color: #4a455a;">
+                        <i class="material-icons large center-align" style="display: block;">explore</i>
+                        <h5 class="center-align">Discovery</h5>
+                        <p>We make it easy to find new systems and adventures, opening doors to countless new experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Clio RPGs</h5>
+                    <p class="grey-text text-lighten-4">Your hub for discovering, playing, and creating amazing role-playing game experiences.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#">About Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Privacy Policy</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2025 Clio RPGs. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Inicializa o Sidenav (menu lateral)
+        var sidenav_elems = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sidenav_elems);
+    });
+</script>
+</body>
+</html>

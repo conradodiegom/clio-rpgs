@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ruptura RPG - Clio RPGs</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+   <header>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                <img src="Clio Rpg’s.png" alt="Clio RPGs Logo"> Clio RPGs
+            </a>
+            
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explorar.html">Explore</a></li>
+                <li><a href="sobre.html">About</a></li>
+                <li><a href="signup.html" class="btn">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<ul id="slide-out" class="sidenav" style="background-color: #383444;">
+    <li><a class="waves-effect white-text" href="index.html"><i class="material-icons white-text">home</i>Home</a></li>
+    <li><a class="waves-effect white-text" href="explorar.html"><i class="material-icons white-text">explore</i>Explore</a></li>
+    <li><a class="waves-effect white-text" href="sobre.html"><i class="material-icons white-text">info</i>About</a></li>
+    <li><div class="divider" style="background-color: #5a536e;"></div></li>
+    <li><a class="waves-effect white-text" href="login.html">Log In</a></li>
+    <li><a class="waves-effect btn" style="background-color: #7e57c2; margin: 0 32px;" href="signup.html">Sign Up</a></li>
+</ul>
+
+    <main>
+        <div class="container">
+            <div class="row system-header" style="margin-top: 40px;">
+                <div class="col s12 m5">
+                    <img src="assets/images/Capa.png" alt="Ruptura RPG">
+                </div>
+                <div class="col s12 m7">
+                    <h2>Ruptura RPG</h2>
+                    <p>
+                        Em um futuro fragmentado, onde a tecnologia e a decadência colidem, a humanidade sobrevive em enclaves isolados. Ruptura é um RPG de ficção científica pós-apocalíptico onde os jogadores exploram um mundo devastado, recuperam tecnologias perdidas e lutam para construir um novo amanhã... ou garantir sua própria sobrevivência.
+                    </p>
+                    <a class="waves-effect waves-light btn">Play Now</a>
+                    <a class="waves-effect waves-light btn secondary">Download Rules</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s4"><a class="active" href="#overview">Overview</a></li>
+                        <li class="tab col s4"><a href="#rules">Rules</a></li>
+                        <li class="tab col s4"><a href="#lore">Lore</a></li>
+                    </ul>
+                </div>
+                <div id="overview" class="col s12" style="margin-top: 20px;">
+                    <h4>Game Overview</h4>
+                    <p>Ruptura utiliza um sistema de dados d10 focado na gestão de recursos e na tomada de decisões de alto risco. Os personagens são definidos por suas habilidades de sobrevivência, conhecimento tecnológico e pelas facções com as quais se alinham. Ideal para grupos que buscam uma narrativa intensa e consequências impactantes para suas ações.</p>
+                </div>
+                <div id="rules" class="col s12" style="margin-top: 20px;">
+                    <h4>Core Mechanics</h4>
+                    <p>O sistema central envolve rolagens de um conjunto de d10s (pool de dados) baseado nos atributos e habilidades do personagem. Sucessos são contados para determinar o resultado, mas cada rolagem corre o risco de "Falhas Críticas", que introduzem complicações inesperadas na história. A customização de equipamentos e a criação de itens são pilares fundamentais do jogo.</p>
+                </div>
+                <div id="lore" class="col s12" style="margin-top: 20px;">
+                    <h4>World Lore</h4>
+                    <p>O mundo de Ruptura é o que restou após o "Grande Colapso", um evento cataclísmico que destruiu a civilização global. Agora, megacorporações reerguidas, cultos tecnológicos e nômades do deserto lutam pelo controle dos recursos e segredos do velho mundo. As ruínas das antigas metrópoles guardam tanto perigos mortais quanto tecnologias que podem mudar o futuro.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Clio RPGs</h5>
+                    <p class="grey-text text-lighten-4">Your hub for discovering, playing, and creating amazing role-playing game experiences.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#">About Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Privacy Policy</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2025 Clio RPGs. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.tabs');
+            var instances = M.Tabs.init(elems);
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+        // Inicializa o Sidenav (menu lateral)
+        var sidenav_elems = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sidenav_elems);
+    });
+    </script>
+</body>
+</html>
