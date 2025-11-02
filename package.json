@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/conradodiegom/clio-rpgs#readme",
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
